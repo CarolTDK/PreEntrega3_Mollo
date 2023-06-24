@@ -8,6 +8,20 @@
   font-size: 1.5rem;
 }
 
+main .text-underlined {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5rem;
+  text-decoration-color: goldenrod;
+}
+main i {
+  font-size: 5rem;
+  padding: 3rem;
+}
+main .carousel-inner img {
+  height: 50vh;
+  width: auto;
+}
+
 footer {
   background-color: black;
   color: white;
