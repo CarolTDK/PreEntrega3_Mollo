@@ -13,6 +13,17 @@ main {
     text-decoration-thickness: 0.5rem;
     text-decoration-color: goldenrod;
   }
+  .card {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    img {
+      width: 40%;
+    }
+  }
+  .accordion {
+    margin-bottom: 5rem;
+  }
   i {
     font-size: 5rem;
     padding: 3rem;

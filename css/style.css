@@ -16,6 +16,17 @@ main .text-underlined {
   text-decoration-thickness: 0.5rem;
   text-decoration-color: goldenrod;
 }
+main .card {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+main .card img {
+  width: 40%;
+}
+main .accordion {
+  margin-bottom: 5rem;
+}
 main i {
   font-size: 5rem;
   padding: 3rem;
