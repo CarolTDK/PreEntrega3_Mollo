@@ -22,6 +22,19 @@ main h3 {
 main section {
   margin: 2rem 3rem;
 }
+main section article {
+  font-family: "Dosis", sans-serif;
+}
+main section article .date-article {
+  font-size: 1rem;
+}
+main section article img {
+  height: 60vh;
+  margin-bottom: 3rem;
+}
+main section article p {
+  margin: 0 5rem 4rem 5rem;
+}
 main .link__contact i {
   color: green;
   text-align: right;
