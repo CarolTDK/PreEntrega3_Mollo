@@ -16,6 +16,20 @@ main .text-underlined {
   text-decoration-thickness: 0.5rem;
   text-decoration-color: goldenrod;
 }
+main h3 {
+  margin: 3rem auto;
+}
+main section {
+  margin: 2rem 3rem;
+}
+main .link__contact i {
+  color: green;
+  text-align: right;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 7rem;
+  right: 1rem;
+}
 main .card {
   display: flex;
   align-items: center;

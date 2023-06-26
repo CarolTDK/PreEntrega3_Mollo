@@ -13,6 +13,21 @@ main {
     text-decoration-thickness: 0.5rem;
     text-decoration-color: goldenrod;
   }
+  h3 {
+    margin: 3rem auto;
+  }
+  section {
+    margin: 2rem 3rem;
+  }
+  .link__contact i {
+    color: green;
+
+    text-align: right;
+    font-size: 4rem;
+    position: fixed;
+    bottom: 7rem;
+    right: 1rem;
+  }
   .card {
     display: flex;
     align-items: center;
