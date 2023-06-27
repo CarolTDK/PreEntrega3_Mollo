@@ -20,7 +20,7 @@ main h3 {
   margin: 3rem auto;
 }
 main section {
-  margin: 1rem 1.5rem;
+  margin: 0.5rem 1rem;
 }
 main section article {
   font-family: "Dosis", sans-serif;
@@ -36,7 +36,7 @@ main section article img {
   flex-direction: column;
 }
 main section article p {
-  margin: 0 3rem 2rem 3rem;
+  margin: 0 2rem 2rem 2rem;
 }
 main .link__contact i {
   color: green;
@@ -44,7 +44,7 @@ main .link__contact i {
   font-size: 3rem;
   position: fixed;
   bottom: 4rem;
-  right: 0.5rem;
+  right: 0.1rem;
 }
 main .card {
   display: flex;
@@ -82,6 +82,12 @@ footer {
 }
 footer .horarios {
   font-size: 1.5rem;
+}
+
+@media (max-width: 700) {
+  span {
+    visibility: hide;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
