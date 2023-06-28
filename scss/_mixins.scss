@@ -1,0 +1,35 @@
+@mixin img-size($w, $h, $mb, $mt, $ml, $mr) {
+  width: $w;
+  height: $h;
+  margin-bottom: $mb;
+  margin-top: $mt;
+  margin-left: $ml;
+  margin-right: $mr;
+}
+
+header {
+  img {
+  }
+}
+main {
+  section {
+    article {
+      img {
+        @include img-size(50vw, 40vh, 3rem, 0, 0, 0);
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+.carousel-inner {
+  img {
+    @include img-size(80%, 60%, 1rem, 1rem, auto, auto);
+    max-width: 70%;
+  }
+}
+.container-fluid {
+  img {
+    @include img-size(60vw, 40vh, 3rem, 0, 3rem, 3rem);
+  }
+}

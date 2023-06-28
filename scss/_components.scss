@@ -1,5 +1,5 @@
 .navbar {
-  background-color: goldenrod;
+  background-color: $secondary-color;
   margin-bottom: 2rem;
   .nav-link {
     font-size: 1.5rem;
@@ -10,7 +10,7 @@ main {
   .text-underlined {
     text-decoration: underline;
     text-decoration-thickness: 0.5rem;
-    text-decoration-color: goldenrod;
+    text-decoration-color: $secondary-color;
   }
   section {
     margin: 4rem 6rem;
@@ -22,13 +22,6 @@ main {
       }
       .date-article {
         font-size: 1rem;
-      }
-      img {
-        max-width: 50vw;
-        height: 40vh;
-        margin-bottom: 3rem;
-        display: flex;
-        flex-direction: column;
       }
     }
   }
@@ -61,30 +54,15 @@ main {
     font-size: 5rem;
     padding: 3rem;
   }
-  .carousel-inner {
-    img {
-      height: 60%;
-      max-width: 80%;
-      margin-top: 1rem;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
+
   .container-fluid {
     width: 80%;
     margin: auto 0;
-    img {
-      width: 60vw;
-      height: 40vh;
-      margin-bottom: 3rem;
-      margin-left: 3rem;
-      margin-right: 3rem;
-    }
   }
 }
 
 footer {
-  background-color: black;
+  background-color: $primary-color;
   color: $third-color;
   padding-bottom: 0.5rem;
 
