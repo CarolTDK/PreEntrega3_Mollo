@@ -1,9 +1,8 @@
-header {
-  .navbar {
-    background-color: goldenrod;
-    .nav-link {
-      font-size: 1.5rem;
-    }
+.navbar {
+  background-color: goldenrod;
+  margin-bottom: 2rem;
+  .nav-link {
+    font-size: 1.5rem;
   }
 }
 
@@ -13,13 +12,14 @@ main {
     text-decoration-thickness: 0.5rem;
     text-decoration-color: goldenrod;
   }
-  h3 {
-    margin: 3rem auto;
-  }
   section {
-    margin: 0.5rem 1rem;
+    margin: 4rem 6rem;
     article {
       font-family: $font-family2;
+      h3 {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+      }
       .date-article {
         font-size: 1rem;
       }
@@ -30,18 +30,21 @@ main {
         display: flex;
         flex-direction: column;
       }
-      p {
-        margin: 0 2rem 2rem 2rem;
-      }
     }
   }
-  .link__contact i {
-    color: green;
-    text-align: right;
-    font-size: 3rem;
-    position: fixed;
-    bottom: 4rem;
-    right: 0.1rem;
+  .lead {
+    max-width: 80%;
+    margin-left: 3rem;
+  }
+  .link__contact {
+    i {
+      color: green;
+      text-align: right;
+      font-size: 3rem;
+      position: fixed;
+      bottom: 4rem;
+      right: 0.1rem;
+    }
   }
   .card {
     display: flex;
@@ -67,12 +70,15 @@ main {
       margin-right: auto;
     }
   }
-  .container {
+  .container-fluid {
+    width: 80%;
+    margin: auto 0;
     img {
       width: 60vw;
       height: 40vh;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
     }
   }
 }

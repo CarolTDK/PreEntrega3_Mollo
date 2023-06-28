@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 
-header .navbar {
+.navbar {
   background-color: goldenrod;
+  margin-bottom: 2rem;
 }
-header .navbar .nav-link {
+.navbar .nav-link {
   font-size: 1.5rem;
 }
 
@@ -16,14 +17,15 @@ main .text-underlined {
   text-decoration-thickness: 0.5rem;
   text-decoration-color: goldenrod;
 }
-main h3 {
-  margin: 3rem auto;
-}
 main section {
-  margin: 0.5rem 1rem;
+  margin: 4rem 6rem;
 }
 main section article {
   font-family: "Dosis", sans-serif;
+}
+main section article h3 {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
 }
 main section article .date-article {
   font-size: 1rem;
@@ -35,8 +37,9 @@ main section article img {
   display: flex;
   flex-direction: column;
 }
-main section article p {
-  margin: 0 2rem 2rem 2rem;
+main .lead {
+  max-width: 80%;
+  margin-left: 3rem;
 }
 main .link__contact i {
   color: green;
@@ -68,11 +71,16 @@ main .carousel-inner img {
   margin-left: auto;
   margin-right: auto;
 }
-main .container img {
+main .container-fluid {
+  width: 80%;
+  margin: auto 0;
+}
+main .container-fluid img {
   width: 60vw;
   height: 40vh;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 footer {
@@ -84,9 +92,9 @@ footer .horarios {
   font-size: 1.5rem;
 }
 
-@media (max-width: 700) {
-  span {
-    visibility: hide;
+@media (max-width: 768px) {
+  .link__contact i {
+    display: none;
   }
 }
 
