@@ -1,35 +1,42 @@
-@mixin img-size($w, $h, $mb, $mt, $ml, $mr) {
+@mixin img-size($w, $h, $mt, $mr, $mb, $ml) {
   width: $w;
   height: $h;
-  margin-bottom: $mb;
   margin-top: $mt;
-  margin-left: $ml;
   margin-right: $mr;
+  margin-bottom: $mb;
+  margin-left: $ml;
 }
 
-header {
-  img {
-  }
-}
 main {
   section {
     article {
       img {
-        @include img-size(50vw, 40vh, 3rem, 0, 0, 0);
+        @include img-size(50vw, 40vh, 0, 0, auto, 0);
         display: flex;
         flex-direction: column;
       }
     }
   }
 }
-.carousel-inner {
+.carousel-item {
   img {
-    @include img-size(80%, 60%, 1rem, 1rem, auto, auto);
+    @include img-size(80%, 60%, 1rem, auto, 1rem, auto);
     max-width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+}
+.container {
+  img {
+    @include img-size(100vw, auto, 3rem, 0, 3rem, 0);
+    display: flex;
+    justify-content: center;
   }
 }
 .container-fluid {
   img {
-    @include img-size(60vw, 40vh, 3rem, 0, 3rem, 3rem);
+    @include img-size(100vw, auto, 3rem, 0, 3rem, 0);
+    display: flex;
+    justify-content: center;
   }
 }

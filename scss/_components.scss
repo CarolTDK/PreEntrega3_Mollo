@@ -12,16 +12,26 @@ main {
     text-decoration-thickness: 0.5rem;
     text-decoration-color: $secondary-color;
   }
+  .card-title {
+    font-size: 2.5rem;
+  }
   section {
-    margin: 4rem 6rem;
+    margin: 2rem 2rem;
     article {
       font-family: $font-family2;
       h3 {
         margin-top: 6rem;
         margin-bottom: 3rem;
       }
+
       .date-article {
         font-size: 1rem;
+      }
+      .intro {
+        margin-bottom: 3rem;
+      }
+      .btn {
+        margin-bottom: 2rem;
       }
     }
   }
@@ -42,14 +52,15 @@ main {
   .card {
     display: flex;
     align-items: center;
-    margin-top: 2rem;
+    margin: 2rem 5.5rem;
     img {
       width: 40%;
     }
   }
   .accordion {
-    margin-bottom: 5rem;
+    margin: 5rem 5.5rem;
   }
+
   i {
     font-size: 5rem;
     padding: 3rem;
@@ -57,7 +68,11 @@ main {
 
   .container-fluid {
     width: 80%;
-    margin: auto 0;
+    margin: auto;
+  }
+
+  iframe {
+    width: 100%;
   }
 }
 
