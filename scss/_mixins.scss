@@ -35,7 +35,7 @@ main {
 }
 .container-fluid {
   img {
-    @include img-size(100vw, auto, 3rem, 0, 3rem, 0);
+    @include img-size(100vw, 70vh, 3rem, 0, 3rem, 0);
     display: flex;
     justify-content: center;
   }
